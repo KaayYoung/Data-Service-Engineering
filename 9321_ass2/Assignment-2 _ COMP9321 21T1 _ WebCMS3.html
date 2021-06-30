@@ -1,0 +1,1223 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="1616740761##af0cecf853cb1dd5891cc086a01006191f1b856c">
+    <title>Assignment-2 |  COMP9321 21T1 | WebCMS3</title>
+
+    <link rel="icon" href="https://webcms3.cse.unsw.edu.au/static/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://webcms3.cse.unsw.edu.au/static/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" id="theme" href="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/deeporange.theme.cc9046d026b05b9be79da1c4cf5c8e15.css">
+
+
+  <style type="text/css"></style><style type="text/css">.select-box{position:absolute;border:1px solid #ddd;border-radius:3px;box-shadow:0 0 5px rgba(0,0,0,.1);background:#fff;z-index:1000}.mention{text-decoration:none!important;color:#000!important;background-color:#dce6f8;padding:0;margin-right:.5em}.user-select{list-style-type:none;list-style:none;margin:0;padding:0;font-family:Helvetica,Arial,sans-serif;font-size:14px;line-height:1.5}.user-select li{display:block;padding:5px 10px;font-weight:600;cursor:pointer;border-bottom:1px solid #ddd}.user-select li small{font-weight:400;color:#767676}.user-select .selected small{color:#fff}.user-select .selected{background-color:#4078c0;color:#fff}</style></head>
+  <body role="document" id="webcms3top">
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://webcms3.cse.unsw.edu.au/">WebCMS3</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+                <li><a href="https://webcms3.cse.unsw.edu.au/COMP2041/21T1/" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Software Construction">COMP9044</a></li>
+                <li><a href="https://webcms3.cse.unsw.edu.au/COMP9318/21T1/" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Data Warehousing and Data Mining">COMP9318</a></li>
+                <li class="active"><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Data Services Engineering">COMP9321</a></li>
+
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="https://webcms3.cse.unsw.edu.au/search" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Search Courses"><i class="fa fa-search"></i></a></li>
+              <li class="dropdown">
+                <a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                  <div class="nav-profile-mask">
+                    <img class="profile_picture" src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/WeChat_Image_20170509201718.jpg">
+                  </div>
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="https://webcms3.cse.unsw.edu.au/users/z5092195"><i class="fa fa-user"></i> Profile</a></li>
+                  <li><a href="https://webcms3.cse.unsw.edu.au/users/z5092195/settings"><i class="fa fa-cog"></i> Settings</a></li>
+                  <li class="divider"></li>
+                  <li><a href="https://webcms3.cse.unsw.edu.au/logout"><i class="fa fa-sign-in"></i> Logout</a></li>
+                </ul>
+              </li>
+            </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="row row-offcanvas row-offcanvas-left">
+          <div class="col-sm-3 col-md-3 sidebar-offcanvas" id="sidebar" role="navigation">
+            <div class="sidebar hidden-print">
+  <div class="panel panel-default">
+    <!-- Default panel contents -->
+    <div class="panel-heading">
+      <h4 class="panel-title"><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/">COMP9321</a> <small>21T1</small></h4>
+    </div>
+
+      <div class="panel-body">
+        <img class="img-responsive img-center" src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/kisspng-big-data-data-analysis-analytics-tableau-software-bigdata-5b0c8caedf2779.7176875515275491029141.png">
+      </div>
+  </div>
+
+  <ul class="list-group">
+            <li class="list-group-item ">
+          <a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/">Home</a>
+        </li>        <li class="list-group-item ">
+          <a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/outline">Course Outline</a>
+        </li>        <li class="list-group-item ">
+          <a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/57772">Lectures</a>
+        </li>        <li class="list-group-item ">
+          <a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/forums/">Forums</a>
+        </li>        <li class="list-group-item ">
+          <a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/58262">Labs</a>
+        </li>        <li class="list-group-item ">
+          <a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/timetable">Timetable</a>
+        </li>
+        <li class="list-group-item ">
+          <a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#side-menu7" data-toggle="collapse" data-parent=".sidebar">
+            Staff <span class="caret"></span>
+          </a>
+        </li>
+        <ul class="list-group collapse" id="side-menu7">
+          
+
+                     <li class="list-group-item">
+    <a href="https://webcms3.cse.unsw.edu.au/users/z3445371">Morty Al-Banna</a>
+    <span class="label label-primary">Lecturer</span>
+  </li>
+
+        <li class="list-group-item">
+    <a href="https://webcms3.cse.unsw.edu.au/users/z5138589">Mohammadali Yaghoubzadehfard</a>
+    <span class="label label-primary">Course Admin</span>
+  </li>
+
+
+        <li class="list-group-item">
+    <a href="https://webcms3.cse.unsw.edu.au/users/z5131400">May Altulyan</a>
+    <span class="label label-default">Tutor</span>
+  </li>
+
+
+        </ul>
+        <li class="list-group-item ">
+          <a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/activities/">Activities</a>
+        </li>        <li class="list-group-item ">
+          <a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#">Course Work</a>
+        </li>
+        <li class="list-group-item ">
+          <a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#side-menu10" data-toggle="collapse" data-parent=".sidebar">
+            Assignments <span class="caret"></span>
+          </a>
+        </li>
+        <ul class="list-group collapse in" id="side-menu10">
+                  <li class="list-group-item ">
+          <a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/58922">Assignment-1</a>
+        </li>        <li class="list-group-item  active">
+          <a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281">Assignment-2</a>
+        </li>
+
+        </ul>
+
+
+
+  </ul>
+  <div class="panel panel-default">
+    <div class="panel-footer">
+
+      <div class="pull-right"> 
+        <a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/users/grades" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Grades"><i class="fa fa-bar-chart"></i></a>
+        <a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/blogs/" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Blog"><i class="fa fa-comment"></i></a>
+        <!--TODO: actual link and change icon-->
+        <a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/wiki/" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Wiki"><i class="fa fa-asterisk"></i></a>
+      </div>
+      Yao Yuan<br>
+      <small>Student</small>
+    </div>
+  </div>
+  
+</div>
+          </div>
+          <div class="col-sm-9 col-md-9 main">
+            <p class="visible-xs hidden-print">
+              <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas" id="toggle-menu"><i class="glyphicon glyphicon-chevron-left"></i> Toggle Menu</button>
+            </p>
+<ol class="breadcrumb">
+  <li>Resources</li>
+
+  <li class="active">Assignment-2</li>
+</ol>
+<div class="page-header with-breadcrumb">
+  <h1 style="display:inline;">Assignment-2</h1> 
+</div>
+
+<div class="row">
+  <div class="col-sm-12">
+     <div class="clearfix">
+
+
+    </div>
+
+  
+    <br>
+
+  
+
+
+    <div role="tabpanel">
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#resource_tab" aria-controls="resource_tab" role="tab" data-toggle="tab">Specification</a></li>
+        <li role="presentation"><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#submit" aria-controls="submit" role="tab" data-toggle="tab">Make Submission</a></li>
+        <li role="presentation"><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#check" id="check-a" aria-controls="check" role="tab" data-toggle="tab">Check Submission</a></li>
+        <li role="presentation"><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#collect" id="collect-a" aria-controls="collect" role="tab" data-toggle="tab">Collect Submission</a></li>
+      </ul>
+
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="resource_tab">  
+          <br>
+             <h2>
+  Data Service for TV Shows
+ </h2>
+ <p>
+  In this assignment, you are asked to develop a Flask-Restx data service that allows a client to read and store some TV Shows, and allow the consumers to access the data through a REST API.
+ </p>
+ <p>
+  <em>
+   <span class="TextRun SCXW54565512">
+    The assignment is based on The TV Maze API, which provides a detailed
+   </span>
+   list of TV shows. You can explore the TVmaze API using the following links
+  </em>
+  <br>
+ </p>
+ <ul>
+  <li>
+   <span class="NormalTextRun SCXW54565512">
+    The source URL:
+   </span>
+   <span class="TextRun Underlined SCXW54565512">
+    <span class="NormalTextRun SCXW54565512">
+     <a class="Hyperlink SCXW54565512" href="http://api.worldbank.org/v2/" target="_blank">
+     </a>
+    </span>
+   </span>
+   <a href="http://api.tvmaze.com/shows">
+    http://api.tvmaze.com/shows
+   </a>
+  </li>
+  <li>
+   <span class="NormalTextRun SCXW54565512">
+    <a class="Hyperlink SCXW54565512" href="http://api.worldbank.org/v2/" target="_blank">
+    </a>
+   </span>
+   <span class="TextRun SCXW54565512">
+    Documentations on API Call Structure:
+   </span>
+   <a href="https://www.tvmaze.com/api" target="_blank">
+    https://www.tvmaze.com/api
+   </a>
+  </li>
+ </ul>
+ <p>
+  ***Disclaimer: We are using an extremal API provided by TV Maze (https://www.tvmaze.com/). We want the students to interact with real life web services to add to the learning experience and hence we are not responsible nor liable for the wording or inclusion/exclusion of TV shows and descriptions within the API. This is a "building your REST API" exercise and should be treated as such.
+ </p>
+ <ul>
+ </ul>
+ <p class="MsoNormal" style="background-color: white;">
+  In this assignment, you are going to use the information provided in this API and add a few functionalities as listed below:
+ </p>
+ <h2>
+  Assignment Specification
+  <br>
+ </h2>
+ <hr>
+ <h3>
+  Question-1: import a TV Show (2 marks)
+  <br>
+ </h3>
+ <p>
+  <span class="TextRun SCXW92550604">
+   <span class="NormalTextRun SCXW92550604">
+    This operation can be considered as an on-demand 'import' operation to get the details of a TV show and store it in your application. The service will download the JSON data for the given TV show (by its name)
+   </span>
+  </span>
+  <span class="TextRun SCXW92550604" style="background-color: initial;">
+   ; You must use
+   <strong>
+    sqlite
+   </strong>
+   for storing the data (the name of the database should be
+   <strong>
+    YOURZID.db
+   </strong>
+   ) locally after importing the TV show
+  </span>
+  <span class="TextRun SCXW92550604" style="background-color: initial;">
+   <span class="NormalTextRun SCXW92550604">
+    .
+    <br>
+   </span>
+  </span>
+ </p>
+ <p>
+  <span class="TextRun SCXW92550604" style="background-color: initial;">
+   <span class="NormalTextRun SCXW92550604">
+    You can use the following to query the API:
+   </span>
+  </span>
+  <a href="http://api.tvmaze.com/search/shows?q=TITLE">
+   http://api.tvmaze.com/search/shows?q=
+  </a>
+  ?
+  <br>
+  For example, you can check the following query:
+  <a href="http://api.tvmaze.com/search/shows?q=good%20girls">
+   http://api.tvmaze.com/search/shows?q=good%20girls
+  </a>
+ </p>
+ <p>
+  To import a tv show, your API accepts a query parameter called "name".:
+ </p>
+ <ul>
+  <li>
+   <span class="TextRun SCXW227133621">
+    <strong>
+     name
+    </strong>
+    : title for the tv show
+   </span>
+  </li>
+ </ul>
+ <p>
+  After importing the collection, the service should return a response containing at least the following information:
+  <br>
+ </p>
+ <ul>
+  <li>
+   <strong>
+    id
+   </strong>
+   : a unique integer identifier automatically generated (this might be different than tvmase_id)
+  </li>
+  <li>
+   <strong>
+    tvmaze-id
+   </strong>
+   : the id of the tv show in tvmaze API
+  </li>
+  <li>
+   <strong>
+    last-update
+   </strong>
+   : the time the collection stored in the database
+  </li>
+  <li>
+   <strong>
+    _links
+   </strong>
+   : the URL with which the imported collection can be retrieved (as shown in below example)
+  </li>
+ </ul>
+ <p>
+  <em>
+   <em>
+    <strong>
+     Important
+    </strong>
+    : For this
+   </em>
+   <em>
+    assignment
+   </em>
+   <em>
+    , you are asked to access the given Web content
+   </em>
+   <em>
+    programmatically.
+   </em>
+   <em>
+    Some Web hosts do not allow their web pages to be accessed programmatically, some hosts may block your IP if you access their pages too many times. During the implementation, download a few test pages and access the content locally - try not to perform too many programmatically.
+    <span style="background-color: rgb(255, 255, 0);">
+     <span style="color: rgb(0, 0, 0);">
+      <span style="background-color: rgb(255, 255, 255);">
+       Check the documentation of the tvmaze API to get insights about their rate limiting policy.
+      </span>
+     </span>
+    </span>
+   </em>
+   <br>
+  </em>
+ </p>
+ <p>
+  <em>
+   Example:
+  </em>
+ </p>
+ <pre>POST /tv-shows/import?name=good girls
+</pre>
+ <p>
+  An example response [This is not what you store in DB, it is the call's response]
+ </p>
+ : 201 Created
+ <pre>{ 
+    "id" : 123,  
+    "last-update": "2021-04-08-12:34:40",
+    "tvmaze-id" : 23542,
+    "_links": {
+        "self": {
+          "href": "http://[HOST_NAME]:[PORT]/tv-shows/123"
+        }
+    } 
+}
+</pre>
+ <ul>
+  <li>
+   You must import a TV show if only the given name matches a valid TV show (good girls, Good Girls, Good-Girls all match each other but they should not match a TV show like "Good Boys"). Be noted that the TVMaze API provides a fuzzy search and hence tolerates typos, capital/small, dashes...etc. and at the same time provides more results than the exact TV Show. You should only import the matching one (ignoring cases, and any character except English alphabet and
+   <span style="color: rgb(149, 55, 52);">
+    <span style="background-color: rgb(149, 55, 52);">
+     <span style="color: rgb(255, 255, 255);">
+      numbers
+     </span>
+    </span>
+   </span>
+   ).
+   <span style="background-color: rgb(149, 55, 52);">
+    <span style="color: rgb(255, 255, 255);">
+     In case there are more than one TV show with the same one, it is up to you how to deal with it (e.g., importing both, importing the latest one, etc)
+    </span>
+   </span>
+  </li>
+  <li>
+   <span style="background-color: rgb(255, 255, 255);">
+    <span style="color: rgb(0, 0, 0);">
+     What and how you store the data in DB is up to you, but take a look at the rest of questions to know what attributes you need to keep for each TV show
+    </span>
+   </span>
+  </li>
+  <li>
+   <span style="background-color: rgb(255, 255, 255);">
+    <span style="color: rgb(0, 0, 0);">
+     Do not get confused with having two identifiers ("id", and "tvmaze-id"); "id" is a unique identifier in your service and all of your operations relay on this id to work; "tvmaze-id" is just a reference to the original data.
+     <br>
+    </span>
+   </span>
+  </li>
+  <li>
+   <span style="background-color: rgb(255, 255, 255);">
+    <span style="color: rgb(0, 0, 0);">
+     <span style="background-color: rgb(149, 55, 52);">
+      <span style="color: rgb(255, 255, 255);">
+       CLARIFICATION:  You should never change an ID of a resource (do not update ids)
+      </span>
+     </span>
+    </span>
+   </span>
+  </li>
+  <li>
+   <span style="background-color: rgb(149, 55, 52);">
+    <span style="color: rgb(255, 255, 255);">
+     CLARIFICATION:  You should replace [HOST_NAME]:[PORT] with correct values
+    </span>
+   </span>
+  </li>
+  <li>
+   <span style="background-color: rgb(149, 55, 52);">
+    <span style="color: rgb(255, 255, 255);">
+     A brief description about _links here :
+     <span style="color: rgb(216, 216, 216);">
+      <a href="https://developer.wordpress.org/rest-api/using-the-rest-api/linking-and-embedding/">
+       https://developer.wordpress.org/rest-api/using-the-rest-api/linking-and-embedding
+      </a>
+      /
+     </span>
+     &lt;u&gt;&lt;/u&gt;
+    </span>
+   </span>
+  </li>
+ </ul>
+ <hr>
+ <h3>
+ </h3>
+ <h4>
+  Question 2 - Retrieve a TV Show  (2 marks)
+ </h4>
+ <p>
+  <span class="TextRun SCXW227133621">
+   This operation retrieves
+  </span>
+  <span class="TextRun SCXW227133621">
+   a collection by its ID (the ID that is generated by your application)
+  </span>
+  . The response of this operation will show the details of TV show. Please see the provided response example below to see what attributes should be included in the response. "_links" gives the links for previous, next, and current resource if they exist
+  <span style="background-color: rgb(255, 255, 255);">
+   .
+  </span>
+  <span style="background-color: rgb(255, 255, 255);">
+   The next and previous resources are based on the sequential ID generated by your application.
+  </span>
+ </p>
+ <p>
+  <span class="TextRun SCXW227133621">
+   The interface should look like as like below:
+  </span>
+ </p>
+ <pre>GET /tv-shows/{id}
+</pre>
+ <p>
+  Example Response returns: 200 OK
+  <br>
+ </p>
+ <pre>{  
+   "tvmaze-id" :23542,
+   "id": 124,
+   "last-update": "2021-04-08-12:34:40",
+   "name": "Good Girls",
+   "type": "Scripted",
+   "language": "English",
+   "genres": [
+        "Drama",
+        "Comedy",
+        "Crime"
+    ],
+    "status": "Running",
+    "runtime": 60,
+    "premiered": "2018-02-26",
+    "officialSite": "https://www.nbc.com/good-girls",
+    "schedule": {
+        "time": "22:00",
+        "days": [
+          "Sunday"
+        ]
+     },
+     "rating": {
+        "average": 7.4
+      },
+      "weight": 100,
+      "network": {
+        "id": 1,
+        "name": "NBC",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        }
+      },
+      "summary": "&lt;p&gt;&lt;b&gt;Good Girls&lt;/b&gt; follows three \"good girl\" suburban wives and mothers who suddenly find themselves in desperate circumstances and decide to stop playing it safe, and risk everything to take their power back.&lt;/p&gt;",
+      "_links": {
+        "self": {
+          "href": "http://[HOST_NAME]:[PORT]/tv-shows/124"
+        },
+        "previous": {
+          "href": "http://[HOST_NAME]:[PORT]/tv-shows/123"
+        },
+        "next": {
+          "href": "http://[HOST_NAME]:[PORT]/tv-shows/125"
+        }
+      } 
+}
+</pre>
+ <hr>
+ <h4>
+  Question 3- Deleting a TV show (2 marks)
+ </h4>
+ <p>
+  This operation deletes an existing TV show from the database. The interface should look like as below:
+ </p>
+ <pre>DELETE /tv-shows/{id}
+</pre>
+ <p>
+  Returns: 200 OK
+  <br>
+ </p>
+ <pre>{ 
+    "message" :"The tv show with id 134 was removed from the database!",
+    "id": 134
+}
+</pre>
+ <hr>
+ <h3>
+ </h3>
+ <h4>
+  Question 4 - Update a TV Show  (2 marks)
+ </h4>
+ <p>
+  <span class="TextRun SCXW227133621">
+   This operation partially updates the details of a given TV Show.
+  </span>
+ </p>
+ <p>
+  <span class="TextRun SCXW227133621">
+   The interface should look like the example below:
+  </span>
+ </p>
+ <pre>PATCH /tv-shows/{id}
+{  
+   "name": "Good Girls",
+   "language": "English",
+   "genres": [
+        "Drama",
+        "Comedy",
+        "Crime"
+    ]
+}
+</pre>
+ <p>
+  The above payload is just an example; it can contain any of the TV show attributes. Take a look at the example response in Question 2 to know the existing attributes.
+ </p>
+ <p>
+  <br>
+  Returns: 200 OK
+  <br>
+ </p>
+ <pre>{  
+    "id" : 123,  
+    "last-update": "2021-04-08-12:34:50",
+    "_links": {
+        "self": {
+          "href": "http://[HOST_NAME]:[PORT]/tv-shows/123"
+        }
+    }
+}
+</pre>
+ <hr>
+ <h3>
+ </h3>
+ <h4>
+  Question 5 - Retrieve the list of available TV Shows 4 marks)
+ </h4>
+ <p>
+  This operation retrieves all available TV shows. The interface should look like as like below:
+ </p>
+ <pre>GET /tv-shows?order_by=&lt;CSV-FORMATED-VALUE&gt; &amp; page=1 &amp; page_size=100 &amp; filter=&lt;CSV-FORMATED-VALUE&gt;
+</pre>
+ <p>
+  All four parameters are optional with default values being "order_by=+id", "page=1", and "page_size
+  <span style="background-color: rgb(255, 255, 255);">
+   =100",
+  </span>
+  <span style="background-color: rgb(255, 255, 255);">
+   filter="id,name".
+  </span>
+  "page" and "page_size" are used for pagination; "page_size" shows the number of TV shows per page. "order_by" is a comma separated string value to sort the list based on the given criteria. The string consists of two parts: the first part is a special character '+' or '-' where '+' indicates ordering ascendingly, and '-' indicates ordering descendingly . The second part is an attribute name which is one of {id,name,runtime,premiered,rating-average}. Here are some sample values of "order_by" :
+ </p>
+ <table class="table">
+  <tbody>
+   <tr>
+    <td>
+     +rating-average,+id
+     <br>
+    </td>
+    <td>
+     order by "rating-average ascending"  and then "id ascending"
+     <br>
+     In this case sorti
+     <span style="background-color: rgb(255, 255, 255);">
+      ng by "rating-average" has p
+     </span>
+     riority over "id". This is similar to SQL order by clause :
+     <br>
+     " rating-average ASC, id
+     <span class="hljs-keyword" style="color: inherit; font-size: inherit;">
+      ASC
+     </span>
+     "
+     <br>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     -premiered
+    </td>
+    <td>
+     order by "premiered descending"
+     <br>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+ <p>
+  "filter" is also another comma separated values (only consider= tvmaze_id ,id ,last-update ,name ,type ,language ,genres ,status ,runtime ,premiered ,officialSite ,schedule ,rating ,weight ,network ,summary), and show what attribute should be shown for each TV show accordingly. Take a look at the following example to know how response should be like:
+ </p>
+ <pre>GET /tv-shows?order_by=+id &amp; page=1 &amp; page_size=100 &amp; filter=id,name
+</pre>
+ <p>
+  All four parameters are optional with default values being "order_by=+id", "page=1", and "page_size=100"
+  <br>
+ </p>
+ <p>
+  Returns: 200 OK
+  <br>
+ </p>
+ <pre>{
+    "page": 1,
+    "page-size": 100,
+    "tv-shows": [ 
+           { 
+            "id" : 1,
+            "name" : "Good Girls"
+            },
+           { 
+            "id" : 2,
+            "name" : "Brilliant Girls"
+           },
+           ...
+        ],
+    "_links": {
+        "self": {
+          "href": "http://[HOST_NAME]:[PORT]/tv-shows?page=1,page_size=1000"
+        },
+        "next": {
+          "href": "http://[HOST_NAME]:[PORT]/tv-shows?page=2,page_size=1000"
+        }
+      }
+}
+</pre>
+ <hr>
+ <h3>
+ </h3>
+ <h4>
+  Question 6 - get the statistics of the existing TV Show   (3 marks)
+ </h4>
+ <p>
+  This operations accepts a parameter called "format" which can be either "json" or "image". Depending on the format your operation should provide the following information:
+  <span style="background-color: rgb(255, 255, 255);">
+   In case when the the format is image, your operation should return an image (can be in any image format) and the image illustrates the requested information in a visualization (apply all your knowledge when creating the visualization such as choosing appropriate visualization type and making sure that it is human readable, clear, and informative).
+  </span>
+ </p>
+ <ul>
+  <li>
+   TV shows break down by an attribute determined by the "by" parameter; this parameter can be any of the following TV show attributes: "language" (showing the percentage of TV shows per Language), "genres", "status", and "type". In case of "genres", a TV show can have multiple values; you should come up with a solution to visualise it. For instance you can think of h
+   <em>
+    ow to visualise what percentage of movies belong to both "Comedy" and "Crime" genres, etc.
+   </em>
+   <span style="background-color: rgb(255, 255, 0);">
+   </span>
+  </li>
+  <li>
+   Total Number of TV shows
+  </li>
+  <li>
+   Total Number of TV shows updated in the last 24 hours
+  </li>
+ </ul>
+ <p>
+  The interface should look like as like below when the format is JSON:
+ </p>
+ <pre>GET /tv-shows/statistics?format=json&amp;by=language
+</pre>
+ <p>
+  Returns: 200 OK
+ </p>
+ <pre>{ 
+   "total": 1241,
+   "total-updated": 24,
+   "values" : { "English": 60.7, "French": 19.2, ... } 
+}
+</pre>
+ <hr>
+ <h3>
+ </h3>
+ <h4>
+ </h4>
+ <h3>
+  Notice:
+  <br>
+ </h3>
+ <ul>
+  <li>
+   <span style="background-color: rgb(255, 255, 255);">
+    TVMAZE API is only used in Question 1 for importing a new TV show. The rest of operations relay on the existing TV Shows in your local database
+   </span>
+  </li>
+  <li>
+   <span style="background-color: rgb(255, 255, 255);">
+    There is not template code for this assignment, you submission should stick to the assignment specifications.
+   </span>
+  </li>
+  <li>
+   <span style="background-color: rgb(255, 255, 255);">
+    Your submission will be marked manually.
+   </span>
+  </li>
+  <li>
+   <span style="background-color: rgb(255, 255, 255);">
+    You should adhere to the best design guidelines for REST API mentioned in the lecture (e.g.,  appropriate responses based on JSON format with proper status codes, full API documentation : the generated Swagger should be fully self-explanatory with operation summary, parameter descriptions, default values).
+   </span>
+  </li>
+  <li>
+   <span class="NormalTextRun SCXW227133621" style="background-color: initial;">
+    You should consider cases such as invalid titles or any invalid attempts to use the endpoint ( e.g.
+   </span>
+   If the input title doesn
+   <span style="background-color: rgb(255, 255, 255);">
+    't exist
+   </span>
+   <span rel="background-color: rgb(255, 255, 255);" style="background-color: rgb(255, 255, 255);">
+    in the
+    <span style="color: rgb(0, 0, 0);">
+     data source, return error 404)
+    </span>
+   </span>
+  </li>
+  <li>
+   You should return appropriate responses (JSON) in case of already imported collections
+  </li>
+  <li>
+   Your code must implemented in
+   <span style="color: rgb(79, 97, 40);">
+    <strong>
+     flask-restx
+    </strong>
+   </span>
+   and automatically generate swagger doc for testing the endpoints.
+  </li>
+  <li>
+   Your code must be executable in CSE machines
+  </li>
+  <li>
+   Your code must not require installing any software (python libraries are fine)
+  </li>
+  <li>
+   Your code must be written in Python 3.5 or newer versions.
+  </li>
+  <li>
+   Your operations (API methods) must return appropriate responses in JSON format, and appropriate HTTP response code! e.g.,
+   <span class="ILfuVd">
+    <span class="e24Kjd">
+     <b>
+      500 Internal Server Error
+     </b>
+    </span>
+   </span>
+   is inappropriate response!
+  </li>
+  <li>
+   Make sure you are using right datatypes in the database and in you API methods (e.g., not string for years '2017')
+  </li>
+  <li>
+   Some of the response of some operations contain "_links", depending on the response this should include links to "self", "next", and "previous" resources.
+  </li>
+  <li>
+   <span style="color: rgb(247, 150, 70);">
+    <strong>
+     <span style="color: rgb(151, 72, 6);">
+     </span>
+    </strong>
+   </span>
+  </li>
+ </ul>
+ <h2>
+  Submission:
+ </h2>
+ <ul>
+  <li>
+   The Deadline is
+   <strong>
+    Saturday the 3rd of April 2021 17:59
+   </strong>
+  </li>
+  <li>
+   One and only one Python script file named "
+   <span style="color: rgb(147, 137, 83);">
+    YOUR_ZID
+   </span>
+   .py" which contains your code
+  </li>
+  <li>
+   <strong>
+    How I can submit my assignment?
+   </strong>
+   <br>
+   Go to the assignment page click on the "Make Submission" tab; pick your files which must be named "YOUR_ZID.py". Make sure that the files are not empty, and submit the files together.
+  </li>
+  <li>
+   <strong>
+    Can I submit my file after deadline?
+   </strong>
+   <br>
+   Yes, you can. But 25% of your assignment will be deducted as a late penalty per day. In other words, if you be late for more than 3 days, you will not be marked.
+  </li>
+ </ul>
+            <div class="clearfix">
+              <p class="pull-left"><small>Resource created <abbr class="timeago" title="Wednesday 17 March 2021, 01:08:22 PM">9 days ago</abbr>, last modified <abbr class="timeago" title="Friday 26 March 2021, 08:58:35 AM">about 5 hours ago</abbr>.</small></p>
+            </div>
+
+
+        </div>
+        <div role="tabpanel" class="tab-pane " id="submit"> 
+          <br>
+          <div class="alert alert-info">
+            <i class="fa fa-info-circle"></i> You can also submit using <code>give cs9321 assign2 file1 file2 file3 ...</code>
+          </div>
+          <div class="alert alert-info"><i class="fa fa-info-circle"></i> Hold CTRL when clicking files to upload multiple files at the same time.</div>
+          <div class="text-center" id="submissionspin" hidden="">
+            <h1><i class="fa fa-circle-o-notch fa-spin"></i></h1>
+            <h4>Submitting...</h4>
+          </div>
+          <pre id="submissionpre" hidden=""></pre>
+          <div id="submissionform">
+            <form id="submissionform" method="post" action="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#" enctype="multipart/form-data">
+              <fieldset>
+                <div style="display:none;"><input id="csrf_token" name="csrf_token" type="hidden" value="1616740761##af0cecf853cb1dd5891cc086a01006191f1b856c"></div>
+                  <div class="form-group ">
+      <label class="control-label">Submission Files*</label>
+    <div class="input-group">
+      <span class="input-group-btn">
+        <span class="btn btn-primary btn-file">
+          <i class="fa fa-folder-open"></i> Browse… <input id="files" multiple="" name="files" type="file">
+        </span>
+      </span>
+      <input type="text" class="form-control" readonly="">
+    </div>
+  </div>
+
+              </fieldset>
+              <button type="submit" class="btn btn-primary">
+                <i class="fa fa-upload"></i> Submit
+              </button>
+            </form>
+            <br>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="check">    
+          <br>
+          <div class="alert alert-info">
+            <i class="fa fa-info-circle"></i> You can also check your submission using <code>9321 classrun -check assign2</code>
+          </div>
+          <div class="text-center" id="checkspin">
+            <h1><i class="fa fa-circle-o-notch fa-spin"></i></h1>
+            <h4>Fetching...</h4>
+          </div>
+          <pre id="checkpre" hidden=""></pre>
+        </div>
+        <div role="tabpanel" class="tab-pane" id="collect">
+          <br>
+          <div class="alert alert-info">
+            <i class="fa fa-info-circle"></i> You can also collect your submission using <code>9321 classrun -collect assign2</code>
+          </div>
+          <div class="text-center" id="collectspin">
+            <h1><i class="fa fa-circle-o-notch fa-spin"></i></h1>
+            <h4>Fetching...</h4>
+          </div>
+          <pre id="collectpre" hidden=""></pre>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default"><div class="panel-heading clearfix"><h3 class="panel-title">
+      Comments
+      <div role="group" class="btn-group btn-group-xs pull-right comment-frame-header"><a title="Click to Subscribe" class="btn btn-default btn-xs"><i class="fa fa-bookmark-o"></i></a> <a title="Search" href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/forums/search?forum_choice=resource/59281" class="btn btn-default btn-xs"><i class="fa fa-search"></i></a> <a title="Forum View" href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/forums/resource/59281" class="btn btn-default btn-xs"><i class="fa fa-comments"></i></a></div></h3></div> <div class="panel-body"><!----> <div style="position: relative;"><i class="fa fa-fw fa-comment-o" style="position: absolute; padding: 10px; color: rgb(153, 153, 153);"></i> <input type="text" placeholder="Add a comment" class="form-control" style="padding-left: 30px;"></div> <!----> <hr> <ul class="comment-wrapper"><li class="comment dark"><!----> <div class="profile-mask"><img src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/default_avatar.png" class="comment-profile"></div> <div class="comment-content"><header><a href="https://webcms3.cse.unsw.edu.au/users/z5221418">Ning Gao</a><small><span><abbr title="Fri Mar 26 2021 13:26:40 GMT+1100 (Australian Eastern Daylight Time)">13 minutes ago</abbr><!----></span></small></header> <div class="comment-body"> <p>
+  Hi, are we allowed to use the “pandas” and “requests” package in this assignment? These packages can be found in vlab.
+ </p></div> <footer><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#">Reply</a><!----><!----></footer></div> <!----> <!----> <ul class="replies"></ul></li><li class="comment dark"><!----> <div class="profile-mask"><img src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/default_avatar.png" class="comment-profile"></div> <div class="comment-content"><header><a href="https://webcms3.cse.unsw.edu.au/users/z3417618">Kan-Lin Lu</a><small><span><abbr title="Fri Mar 26 2021 11:58:13 GMT+1100 (Australian Eastern Daylight Time)">about 2 hours ago</abbr><!----></span></small></header> <div class="comment-body"> <p>
+  I realized when reading sql as pandas, the datatype seem to be messed up. Do we need to format the output response?
+ </p></div> <footer><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#">Reply</a><!----><!----></footer></div> <!----> <!----> <ul class="replies"><li class="comment light"><!----> <div class="profile-mask"><img src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/mohammad.jpg" class="comment-profile"></div> <div class="comment-content"><header><a href="https://webcms3.cse.unsw.edu.au/users/z5138589">Mohammadali Yaghoubzadehfard</a><small><span><abbr title="Fri Mar 26 2021 12:22:34 GMT+1100 (Australian Eastern Daylight Time)">about an hour ago</abbr><!----></span></small></header> <div class="comment-body"> <p>
+  The datatypes should not change
+ </p></div> <footer><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#">Reply</a><!----><!----></footer></div> <!----> <!----> <ul class="replies"><li class="comment dark"><!----> <div class="profile-mask"><img src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/default_avatar.png" class="comment-profile"></div> <div class="comment-content"><header><a href="https://webcms3.cse.unsw.edu.au/users/z3417618">Kan-Lin Lu</a><small><span><abbr title="Fri Mar 26 2021 12:54:02 GMT+1100 (Australian Eastern Daylight Time)">about an hour ago</abbr><!----></span></small></header> <div class="comment-body"> <p>
+  How does one usually store dictionary and list into sql? Aint we suppose to convert it to string via json.dump?
+ </p>
+ <p>
+  <br>
+ </p></div> <footer><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#">Reply</a><!----><!----></footer></div> <!----> <!----> <ul class="replies"></ul></li></ul></li></ul></li><li class="comment dark"><!----> <div class="profile-mask"><img src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/15272619922846b41f3a7d3.png" class="comment-profile"></div> <div class="comment-content"><header><a href="https://webcms3.cse.unsw.edu.au/users/z5171928">Yunfan Wang</a><small><span><abbr title="Fri Mar 26 2021 10:09:20 GMT+1100 (Australian Eastern Daylight Time)">about 4 hours ago</abbr><!----></span></small></header> <div class="comment-body"> <p>
+  Could you please provide us with the attributes in the 'rating' field? I only found 'average' there.
+ </p>
+ <p>
+  Thanks.
+ </p></div> <footer><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#">Reply</a><!----><!----></footer></div> <!----> <!----> <ul class="replies"><li class="comment light"><!----> <div class="profile-mask"><img src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/mohammad.jpg" class="comment-profile"></div> <div class="comment-content"><header><a href="https://webcms3.cse.unsw.edu.au/users/z5138589">Mohammadali Yaghoubzadehfard</a><small><span><abbr title="Fri Mar 26 2021 10:26:51 GMT+1100 (Australian Eastern Daylight Time)">about 3 hours ago</abbr><!----></span></small></header> <div class="comment-body"> <p>
+  "average-rating" is a single attribute corresponding to:
+  <br>
+  <br>
+  "rating": {
+ </p>
+ <p>
+  "average": 7.4
+ </p>
+ <p>
+  }
+ </p></div> <footer><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#">Reply</a><!----><!----></footer></div> <!----> <!----> <ul class="replies"></ul></li></ul></li><li class="comment dark"><!----> <div class="profile-mask"><img src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/default_avatar.png" class="comment-profile"></div> <div class="comment-content"><header><a href="https://webcms3.cse.unsw.edu.au/users/z5216227">Yunqi Yang</a><small><span><abbr title="Fri Mar 26 2021 01:48:39 GMT+1100 (Australian Eastern Daylight Time)">about 12 hours ago</abbr><!----></span></small></header> <div class="comment-body"> <p>
+  <img src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/2021-03-26_1.46.38.png">
+ </p>
+ <p>
+  HI,
+ </p>
+ <p>
+  Just double-check I submit to the right place, cause it shows assign1
+ </p></div> <footer><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#">Reply</a><!----><!----></footer></div> <!----> <!----> <ul class="replies"><li class="comment light"><!----> <div class="profile-mask"><img src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/mohammad.jpg" class="comment-profile"></div> <div class="comment-content"><header><a href="https://webcms3.cse.unsw.edu.au/users/z5138589">Mohammadali Yaghoubzadehfard</a><small><span><abbr title="Fri Mar 26 2021 08:53:56 GMT+1100 (Australian Eastern Daylight Time)">about 5 hours ago</abbr><!----></span></small></header> <div class="comment-body"> <p>
+  Hi, Should be fine
+ </p></div> <footer><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#">Reply</a><!----><!----></footer></div> <!----> <!----> <ul class="replies"></ul></li></ul></li><li class="comment dark"><!----> <div class="profile-mask"><img src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/default_avatar.png" class="comment-profile"></div> <div class="comment-content"><header><a href="https://webcms3.cse.unsw.edu.au/users/z5291100">Saurabh Jain</a><small><span><abbr title="Fri Mar 26 2021 01:42:51 GMT+1100 (Australian Eastern Daylight Time)">about 12 hours ago</abbr><!----></span></small></header> <div class="comment-body"> <p>
+  Question-5
+ </p>
+ <p>
+  Hi,
+ </p>
+ <p>
+  In this question first we need to apply the pagination and then order by or first order by then pagination.
+ </p></div> <footer><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#">Reply</a><!----><!----></footer></div> <!----> <!----> <ul class="replies"><li class="comment light"><!----> <div class="profile-mask"><img src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/mohammad.jpg" class="comment-profile"></div> <div class="comment-content"><header><a href="https://webcms3.cse.unsw.edu.au/users/z5138589">Mohammadali Yaghoubzadehfard</a><small><span><abbr title="Fri Mar 26 2021 08:54:24 GMT+1100 (Australian Eastern Daylight Time)">about 5 hours ago</abbr><!----></span></small></header> <div class="comment-body"> <p>
+  First orderby, then pagination
+ </p></div> <footer><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#">Reply</a><!----><!----></footer></div> <!----> <!----> <ul class="replies"></ul></li></ul></li><li class="comment dark"><!----> <div class="profile-mask"><img src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/default_avatar.png" class="comment-profile"></div> <div class="comment-content"><header><a href="https://webcms3.cse.unsw.edu.au/users/z5272064">Helin Wang</a><small><span><abbr title="Fri Mar 26 2021 01:03:08 GMT+1100 (Australian Eastern Daylight Time)">about 13 hours ago</abbr><!----></span></small></header> <div class="comment-body"> <p>
+  For _link, If I delete the last show and its index is 3, so the index of next show should be 4 rather than 3 is this right?
+ </p>
+ <p>
+  Thanks
+ </p></div> <footer><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#">Reply</a><!----><!----></footer></div> <!----> <!----> <ul class="replies"><li class="comment light"><!----> <div class="profile-mask"><img src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/mohammad.jpg" class="comment-profile"></div> <div class="comment-content"><header><a href="https://webcms3.cse.unsw.edu.au/users/z5138589">Mohammadali Yaghoubzadehfard</a><small><span><abbr title="Fri Mar 26 2021 08:54:50 GMT+1100 (Australian Eastern Daylight Time)">about 5 hours ago</abbr><!----></span></small></header> <div class="comment-body"> <p>
+  Yes
+ </p></div> <footer><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#">Reply</a><!----><!----></footer></div> <!----> <!----> <ul class="replies"></ul></li></ul></li><li class="comment dark"><!----> <div class="profile-mask"><img src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/default_avatar.png" class="comment-profile"></div> <div class="comment-content"><header><a href="https://webcms3.cse.unsw.edu.au/users/z5226463">Hoya Lee</a><small><span><abbr title="Fri Mar 26 2021 01:01:33 GMT+1100 (Australian Eastern Daylight Time)">about 13 hours ago</abbr><!----></span></small></header> <div class="comment-body"> <p>
+  Would importing the same show twice update the show? or would it just return some kind of error / do nothing?
+ </p></div> <footer><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#">Reply</a><!----><!----></footer></div> <!----> <!----> <ul class="replies"><li class="comment light"><!----> <div class="profile-mask"><img src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/mohammad.jpg" class="comment-profile"></div> <div class="comment-content"><header><a href="https://webcms3.cse.unsw.edu.au/users/z5138589">Mohammadali Yaghoubzadehfard</a><small><span><abbr title="Fri Mar 26 2021 08:55:38 GMT+1100 (Australian Eastern Daylight Time)">about 5 hours ago</abbr><!----></span></small></header> <div class="comment-body"> <p>
+  It should return a proper response saying the show has already been imported
+ </p></div> <footer><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#">Reply</a><!----><!----></footer></div> <!----> <!----> <ul class="replies"></ul></li></ul></li><li class="comment dark"><!----> <div class="profile-mask"><img src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/default_avatar.png" class="comment-profile"></div> <div class="comment-content"><header><a href="https://webcms3.cse.unsw.edu.au/users/z3417618">Kan-Lin Lu</a><small><span><abbr title="Fri Mar 26 2021 01:01:24 GMT+1100 (Australian Eastern Daylight Time)">about 13 hours ago</abbr><!----></span></small></header> <div class="comment-body"> <h4>
+  Question 2
+ </h4>
+ <p>
+  Example tvmaze_id vs tvmaze-id, which one is the deisred?
+ </p>
+ <p>
+  whilst question 1 and other uses tvmaze-id, but question 2 uses tvmaze_id.
+ </p></div> <footer><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#">Reply</a><!----><!----></footer></div> <!----> <!----> <ul class="replies"><li class="comment light"><!----> <div class="profile-mask"><img src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/mohammad.jpg" class="comment-profile"></div> <div class="comment-content"><header><a href="https://webcms3.cse.unsw.edu.au/users/z5138589">Mohammadali Yaghoubzadehfard</a><small><span><abbr title="Fri Mar 26 2021 08:56:22 GMT+1100 (Australian Eastern Daylight Time)">about 5 hours ago</abbr>, last modified <abbr title="Fri Mar 26 2021 08:56:33 GMT+1100 (Australian Eastern Daylight Time)">about 5 hours ago</abbr></span></small></header> <div class="comment-body"> <p>
+  Both are fine; but be consistant!
+ </p></div> <footer><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#">Reply</a><!----><!----></footer></div> <!----> <!----> <ul class="replies"></ul></li></ul></li><li class="comment dark"><!----> <div class="profile-mask"><img src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/default_avatar.png" class="comment-profile"></div> <div class="comment-content"><header><a href="https://webcms3.cse.unsw.edu.au/users/z3417618">Kan-Lin Lu</a><small><span><abbr title="Fri Mar 26 2021 00:43:34 GMT+1100 (Australian Eastern Daylight Time)">about 13 hours ago</abbr><!----></span></small></header> <div class="comment-body"> <p>
+  Is it right to always establish a connection whenever access is needed to DB? or is there another way?
+ </p></div> <footer><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#">Reply</a><!----><!----></footer></div> <!----> <!----> <ul class="replies"><li class="comment light"><!----> <div class="profile-mask"><img src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/mohammad.jpg" class="comment-profile"></div> <div class="comment-content"><header><a href="https://webcms3.cse.unsw.edu.au/users/z5138589">Mohammadali Yaghoubzadehfard</a><small><span><abbr title="Fri Mar 26 2021 08:57:15 GMT+1100 (Australian Eastern Daylight Time)">about 5 hours ago</abbr><!----></span></small></header> <div class="comment-body"> <p>
+  That is way; but you may also think of a connection pool. not required for this assignment
+ </p></div> <footer><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#">Reply</a><!----><!----></footer></div> <!----> <!----> <ul class="replies"><li class="comment dark"><!----> <div class="profile-mask"><img src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/default_avatar.png" class="comment-profile"></div> <div class="comment-content"><header><a href="https://webcms3.cse.unsw.edu.au/users/z3417618">Kan-Lin Lu</a><small><span><abbr title="Fri Mar 26 2021 11:57:41 GMT+1100 (Australian Eastern Daylight Time)">about 2 hours ago</abbr><!----></span></small></header> <div class="comment-body"> <p>
+  Thanks will take a look into it !
+ </p></div> <footer><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#">Reply</a><!----><!----></footer></div> <!----> <!----> <ul class="replies"></ul></li></ul></li></ul></li><li class="comment dark"><!----> <div class="profile-mask"><img src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/default_avatar.png" class="comment-profile"></div> <div class="comment-content"><header><a href="https://webcms3.cse.unsw.edu.au/users/z5209760">Hillary Chan</a><small><span><abbr title="Thu Mar 25 2021 22:55:06 GMT+1100 (Australian Eastern Daylight Time)">about 15 hours ago</abbr><!----></span></small></header> <div class="comment-body"> <p>
+  For q4, is tvmaze_id included as one of the attributes that can be updated? I feel like we shouldn't be able to update it.
+ </p></div> <footer><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#">Reply</a><!----><!----></footer></div> <!----> <!----> <ul class="replies"><li class="comment light"><!----> <div class="profile-mask"><img src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/mohammad.jpg" class="comment-profile"></div> <div class="comment-content"><header><a href="https://webcms3.cse.unsw.edu.au/users/z5138589">Mohammadali Yaghoubzadehfard</a><small><span><abbr title="Fri Mar 26 2021 08:57:31 GMT+1100 (Australian Eastern Daylight Time)">about 5 hours ago</abbr><!----></span></small></header> <div class="comment-body"> <p>
+  No you should not update it
+ </p></div> <footer><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#">Reply</a><!----><!----></footer></div> <!----> <!----> <ul class="replies"></ul></li></ul></li></ul> <!----> <button class="btn btn-default">
+        Load More Comments
+      </button> <!----></div></div>
+  </div>
+</div>
+          </div>
+      </div>
+      <div class="row hidden-print">
+        <div class="col-sm-12">
+          <hr>
+          <p class="pull-right"><a href="https://webcms3.cse.unsw.edu.au/COMP9321/21T1/resources/59281#webcms3top">Back to top <i class="fa fa-caret-up"></i></a></p>
+          <div class="pull-left">
+
+          <strong>COMP9321 21T1 (Data Services Engineering)</strong>
+          is powered by <a href="https://webcms3.cse.unsw.edu.au/about">WebCMS3</a>
+          <h6><small>CRICOS Provider No. 00098G</small></h6>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/manifest.cfb3a155968bb33441c3.js.download"></script>
+    <script src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/vendor.ccafba1973f262c84499.js.download"></script>
+    <script src="./Assignment-2 _ COMP9321 21T1 _ WebCMS3_files/app.b49dff5297717517af10.js.download"></script>
+
+
+  <script type="text/javascript">
+    function get_submissioninfo(item, url) {
+      $('#' + item + "-a").one('click', function() {
+        $.ajax({
+          url: url,
+          type: "GET",
+          dataType: "json"
+        })
+        .done(function(data) {
+          $("#" + item + "spin").hide();
+          $("#" + item + "pre").show();
+          $('#' + item + 'pre').text(data["message"]);
+        })
+        .fail(function() {
+          $("#" + item + "spin").hide();
+          $("#" + item + "pre").show();
+          $('#' + item + 'pre').text("An unexpected error has occurred.");
+        });
+      });
+    }
+    get_submissioninfo('check', "/COMP9321/21T1/activities/submissions/api/check/assign2/z5092195");
+    get_submissioninfo('collect', "/COMP9321/21T1/activities/submissions/api/collect/assign2/z5092195");
+
+    /*
+    $("#submissionform").submit(function() {
+      $("#submissionform").hide();
+      $('#submissionpre').hide();
+      $('#submissionspin').show();
+
+      var url = "/COMP9321/21T1/activities/submissions/api/give/assign2/z5092195";
+      
+      var formData = new FormData();
+
+      $.ajax({
+          url: url,
+          type: 'POST',
+          data: formData,
+          processData: false,
+          contentType: false,
+          dataType: "json"
+      })
+      .done(function(data) {
+        $('#submissionspin').hide();
+        $('#submissionpre').text(data["message"]);
+        $('#submissionpre').show();
+        $('#submissionform').show();
+      })
+      .fail(function() {
+        $('#submissionspin').hide();
+        $('#submissionpre').text("An unexpected error has occurred.");
+        $('#submissionpre').show();
+        $('#submissionform').show();
+      });
+
+      return false;
+    });
+    */
+  </script>
+
+<script>
+
+    webcms.renderComments("#messaging-wrapper", {
+      object_type: 'resource',
+      object_id: 59281,
+      url: '/messages/',
+      course: '3430',
+  });
+
+</script>
+
+<script>
+$(function() {
+  $('*[data-bootbox="resource-delete-heading"]').each(function() {
+    $(this).click(function(e) {
+      e.preventDefault();
+      var location = $(this).attr('href');
+      bootbox.dialog({
+        message: "Are you sure you wish to delete this resource heading?",
+        buttons: {
+          main: {
+            label: "No",
+            className: "btn-default",
+            callback: function() { }
+          },
+          children: {
+            label: "Yes, and delete all children too",
+            className: "btn-primary",
+            callback: function() {
+              window.location.replace(location + "?children=1");
+            }
+          },
+          just: {
+            label: "Yes, and move children to parent",
+            className: "btn-primary",
+            callback: function() {
+              window.location.replace(location);
+            }
+          }
+        }
+      });
+    });
+  });
+
+});
+</script>
+
+<script>
+$(function() {
+  $('*[data-bootbox="resource-delete"]').each(function() {
+    $(this).click(function(e) {
+      e.preventDefault();
+      var location = $(this).attr('href');
+
+      bootbox.confirm("Are you sure you wish to delete this resource?", function(confirmed) {
+        if (confirmed) {
+          window.location.replace(location);
+        }
+      });
+    });
+  });
+});
+</script>
+
+
+
+    <script>
+      jQuery.timeago.settings.allowFuture = true;
+
+      $(function() {
+        $('*[id^="redactor"]').each(function () {
+          $(this).redactor({
+            imageUpload: "/files/redactor/upload",
+            plugins: ['table', 'fontsize', 'fontcolor', 'video', 'template']
+          });
+
+        });
+          $('.redactor').redactor({
+            imageUpload: "/files/redactor/upload",
+            plugins: ['table', 'fontsize', 'fontcolor', 'video', 'template']
+          });
+      });
+
+      $(document).ready(function() {
+        /* hack to remove awful extra padding */
+        $('.redactor-box').attr('style', 'margin: 0 !important; padding: 0 !important;');
+
+        /* force text cursor in redactor editing field */
+        $('.redactor-editor').each(function () {
+          $(this).attr('style', 'cursor: text;');
+        });
+      });
+
+      $(document).ready(function() {
+        $('[data-toggle=buttons]').click(function() {
+          /* hack to get toolbar to show */
+          setTimeout(function() {$('.redactor').scroll()}, 0);
+        });
+      });
+
+    </script>
+    <script>
+        $(document).on('change', '.btn-file :file', function() {
+          var input = $(this),
+              numFiles = input.get(0).files ? input.get(0).files.length : 1,
+              label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
+          input.trigger('fileselect', [numFiles, label]);
+        });
+
+        $(document).ready( function() {
+            $('.btn-file :file').on('fileselect', function(event, numFiles, label) {
+                var input = $(this).parents('.input-group').find(':text'),
+                    log = numFiles > 1 ? numFiles + ' files selected' : label;
+                if (input.length) {
+                    input.val(log);
+                } else {
+                    if (log) alert(log);
+                }
+            });
+        });
+
+      $('[data-toggle="popover"]').popover();
+    </script>
+
+    <script type="text/javascript">
+      jQuery(document).ready(function() {
+        jQuery("abbr.timeago").timeago();
+      });
+
+      $(function() {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+      $(document).ready(function() {
+        $('[data-toggle=offcanvas]').click(function() {
+          $('.row-offcanvas').toggleClass('active');
+        });
+      });
+    </script>
+
+
+
+
+  
+</div></body></html>
